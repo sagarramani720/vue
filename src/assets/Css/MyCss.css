@@ -1,0 +1,61 @@
+.container {
+  background: black;
+  display: inline-block;
+  border: 5px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  grid-gap: 5px;
+}
+
+.cell {
+  /* center the cell content */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Arial;
+  font-size: 3rem;
+  font-weight: bold;
+  background: white;
+}
+.main-h1 {
+  color: black;
+  size: 100%;
+}
+.width {
+  height: 24px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+.height {
+  height: 24px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.imagePreviewWrapper {
+  width: 350px;
+  height: 350px;
+  display: block;
+  cursor: pointer;
+  margin: 0 auto 30px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.start-btn {
+  padding: 6px 12px;
+  background-color: #1ca76a;
+  color: #fff;
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.main-template {
+  background-color: darkgray;
+}
